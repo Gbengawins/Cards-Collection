@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    /* display: flex;
+    justify-items: space-between;
+    align-content: center; */
+    width: 100vw;
+    height: 7vh;
+    color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+nav {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+}
+/*-----Navbar Left-----*/
+.brand {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+/*----- Navbar Center -----*/
+
+.navbar-center {
+    flex: 8;
+    justify-content: end;
+    margin-left: 600px;
+}
+
+
+.dropbtn {
+    /* background-color: #9caa043f; */
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+}
+
+.dropdown-content a:hover {
+    background-color: #cf9b0c93;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropbtn {
+    /* background-color: #3e8e41; */
+    background-color: #f5a70b;
+   
+}
+/*-----Navbar Right-----*/
+.socials {
+    flex: 2;
+    display: flex;
+    justify-content: end;
+    align-content: center;
+    padding: 10px;
+    column-gap: 10px;
+    cursor: pointer;
+}
+
+.icons {
+    background-color: transparent;
+    border-radius: 8px;
+}
+.icons:hover {
+    background-color: #f5a70b;
+    color: #f1f1f1;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}

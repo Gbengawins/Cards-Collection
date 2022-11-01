@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #b48831;
+    color: #ffffff;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flip-card,
+.front-face,
+.front-content,
+.back-content,
+.back-face {
+    position: absolute;
+}
+
+.flip-card {
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
